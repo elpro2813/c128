@@ -1,0 +1,46 @@
+/*Establecer el color de fondo de la imágen*/
+body
+{
+background-color:#ff0000;
+}
+
+/*Agregarcolor del título*/
+h1
+{
+ color:rgb(38, 0, 255);
+  background-color: cornsilk;
+}
+
+/*Alinearemos el botón Mostrar dibujos a la derecha*/
+#show_sketch
+{
+  float:right;
+  background-color: rgb(77, 82, 145);
+}
+
+canvas 
+  {
+    border:5px solid white;
+    /*Poner el borde del radio en 20px*/
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px; 
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+  
+  /*Poner sombra*/
+  from {box-shadow: 1px 1px 38px grey;}
+  /*Poner sombra*/
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+p
+  {
+    padding-top:10px;
+    font-size:25px;
+  }
+
